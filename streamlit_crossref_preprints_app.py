@@ -313,7 +313,7 @@ with st.expander("👋 Quick Start (click to open)", expanded=True):
 
 with st.sidebar:
     st.header("🎨 Theme")
-    theme_mode = st.radio("Mode", options=["Auto", "Light", "Dark"], index=0, horizontal=True)
+    theme_mode = st.radio("Mode", options=["Dark", "Light", "Auto"], index=0, horizontal=True)
     accent_color = st.color_picker("Accent color", value="#6C63FF")
     apply_runtime_theme(theme_mode, accent_color)
 
@@ -712,3 +712,4 @@ we mark the server as present.
 - Add **date filters** if you only want recent preprints.
 """
 )
+
