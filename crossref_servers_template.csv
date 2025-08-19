@@ -1,0 +1,4 @@
+server_name,issn_l,issn_print,issn_electronic,doi_prefixes,crossref_member_id,title_exact,title_variants,notes
+bioRxiv,,,,10.1101,,bioRxiv,,
+medRxiv,,,,10.1101,,medRxiv,,
+Research Square,,,,10.21203,,,Research Square;
